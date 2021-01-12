@@ -11,12 +11,7 @@
 	right: 0;
 	bottom: 0;
 }
-@font-face{
-	font-family: "DejaVuSans-ExtraLight";
-	src: url('/fonts/DejaVuSans-ExtraLight.ttf');
-}
-body {background-color:#f5f5dc;} 
-.avatar {
+.main>.avatar {
 	padding:.375rem;
 	height:6rem;
 	width:6rem;
@@ -25,5 +20,10 @@ body {background-color:#f5f5dc;}
 .main>.list{
 	color:hotpink;
 }
+body {background-color:#f5f5dc;} 
 a:visited {color:hotpink}
 a:link {color:hotpink}
+@font-face{
+	font-family: "DejaVuSans-ExtraLight";
+	src: url('/fonts/DejaVuSans-ExtraLight.ttf');
+}
