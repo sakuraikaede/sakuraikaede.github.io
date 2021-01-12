@@ -16,3 +16,14 @@
 	src: url('/fonts/DejaVuSans-ExtraLight.ttf');
 }
 body {background-color:#f5f5dc;} 
+.avatar {
+	padding:.375rem;
+	height:6rem;
+	width:6rem;
+	border-radius:50%
+}
+.main>.list{
+	color:hotpink;
+}
+a:visited {color:hotpink}
+a:link {color:hotpink}
