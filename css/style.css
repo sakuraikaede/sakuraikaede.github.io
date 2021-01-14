@@ -1,29 +1,34 @@
 .main{
-	text-align: center; /*让div内部文字居中*/
+	text-align: center;
 	border-radius: 20px;
 	width: 300px;
 	height: 350px;
 	margin: auto;
 	position: absolute;
-	font-family: 'DejaVuSans-ExtraLight';
+	font-family: 'SourceSansPro';
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 }
 .main>.avatar {
-	padding:.375rem;
 	height:6rem;
 	width:6rem;
 	border-radius:50%
 }
+.main>.slogan{
+	font-size:15px;
+}
 .main>.list{
 	color:hotpink;
+	font-size:20px;
 }
 body {background-color:#f5f5dc;} 
+p {margin:5px 0;}
+h1 {margin:1px 0;}
 a:visited {color:hotpink}
 a:link {color:hotpink}
 @font-face{
-	font-family: "DejaVuSans-ExtraLight";
-	src: url('/fonts/DejaVuSans-ExtraLight.ttf');
+	font-family: "SourceSansPro";
+	src: url('/fonts/SourceSans3-Light.ttf');
 }
