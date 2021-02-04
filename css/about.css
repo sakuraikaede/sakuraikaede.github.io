@@ -1,0 +1,26 @@
+.main{
+	text-align: center;
+	border-radius: 20px;
+	width: 350px;
+	height: 350px;
+	margin: auto;
+	position: absolute;
+	font-family: 'SourceSansPro';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.list{
+	text-align: left;
+	font-size: 20px;	
+}
+body {background-color:#f5f5dc;} 
+p {margin:5px 0;}
+h1 {margin:1px 0;}
+a:visited {color:hotpink}
+a:link {color:hotpink}
+@font-face{
+	font-family: "SourceSansPro";
+	src: url('/fonts/SourceSans3-Light.ttf');
+}
