@@ -1,7 +1,6 @@
 .main{
 	text-align: center;
 	border-radius: 20px;
-	width: 500px;
 	height: 350px;
 	margin: auto;
 	position: absolute;
@@ -12,13 +11,15 @@
 	bottom: 0;
 }
 .main>.button>a:link, a:visited {
-	color: black;
-	padding: 15px 25px;
+	display:inline-block;
 	text-align: center;
-	border: 2px solid pink;
 	text-decoration: none;
-	display: inline-block;
-	margin: 5px
+	width:100px;
+	color: black;
+	border: pink 2px solid;
+	background-color:pink;
+	margin: 5px;
+	padding: 10px;
 }
 .main>.button>a:hover, a:active {
 	background-color: hotpink;
@@ -34,6 +35,14 @@
 .main>.list{
 	color:hotpink;
 	font-size:20px;
+}
+@media all and (max-width: 415Px) {
+    div.main {
+        width: 200px;
+	}
+	.main>.button>a:link, a:visited {
+		width: 130px;
+	}
 }
 body {background-color:#f5f5dc;} 
 p {margin:5px 0;}
