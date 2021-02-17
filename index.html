@@ -1,24 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Sakurai Kaede's Personal Page</title>
-</head>
-<body>
-    <div class="main">
-        <img class="avatar" title="Pixiv Content ID:58835009" src="avatar.jpg">
-        <h1>Sakurai Kaede</h1>
-        <p class="slogan">Wish you can be young forever.</p>
-        <br>
-        <div class="button">
-            <a href="https://sakurai.in">Blog</a>
-            <a href="/about/">About me</a>
-            <a href="/openpgp/">OpenPGP Key</a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/39c90bc0ef.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Kaede's Personal Page</title>
+  </head>
+  <body style="background-color:#e9ecef;">
+    <div class="d-flex flex-column" style="min-height:100vh">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-xxl">
+        <span class="navbar-brand mb-0 h1" href="#">Kaede's Personal Page</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-globe"></i> Language
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item active" href="#">English</a></li>
+                <li><a class="dropdown-item" href="/zh-hans/">简体中文</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <br>
-        <a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20216655" target="_blank"> 20216655号</a>
+      </div>
+    </nav>
+  <div class="d-flex flex-column align-items-center justify-content-center" style="flex: 1;">
+    <img src="/img/avatar.jpg" class="rounded-circle mx-auto d-block img-thumbnail" alt="Avatar" width="200" height="200">
+    <div style="font-size: 30px;">Sakurai Kaede</div>
+    <div style="font-size: 15px;">Wish you can be young forever.</div>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="https://sakurai.in">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about/">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/openpgp/">OpenPGP Key</a>
+      </li>
+    </ul>
     </div>
-</body>
+  <nav class="navbar navbar-light fixed-bottom">
+      <div class="container-fluid justify-content-center">
+        <span class="navbar-text ">
+          <a href="https://icp.gov.moe" target="_blank" style="color: rgba(0,0,0,.55);">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20216655" target="_blank" style="color: rgba(0,0,0,.55);"> 20216655号</a>
+          <br>
+          ©2021 Sakurai Kaede
+        </span>
+      </div>
+  </nav>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
 </html>
